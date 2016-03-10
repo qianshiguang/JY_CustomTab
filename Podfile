@@ -1,0 +1,5 @@
+pod 'CYLTabBarController'
+pod 'ReactiveCocoa', '~> 2.5'
+pod 'ios-qr-encoder', '~> 1.0.4'
+pod 'UIImage+BlurredFrame', '~> 0.0.4'
+pod 'NSDate+Helper', '~> 1.0.0'

@@ -1,0 +1,28 @@
+PODS:
+  - CYLTabBarController (1.2.1)
+  - ios-qr-encoder (1.0.4)
+  - NSDate+Helper (1.0.0)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - UIImage+BlurredFrame (0.0.4)
+
+DEPENDENCIES:
+  - CYLTabBarController
+  - ios-qr-encoder (~> 1.0.4)
+  - NSDate+Helper (~> 1.0.0)
+  - ReactiveCocoa (~> 2.5)
+  - UIImage+BlurredFrame (~> 0.0.4)
+
+SPEC CHECKSUMS:
+  CYLTabBarController: 62ee700d59dc1f42777053e6254933f499ab4564
+  ios-qr-encoder: f5f654b3d8921caee92564f8c5698b7a699f9dc3
+  NSDate+Helper: 38676f1c2bd50fcebcebf8fc281276e1f18df18c
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  UIImage+BlurredFrame: ad2f7195c6947ea3117c7d202f75a51958d5061a
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DD89767BE8506FACF3A958F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6E3743416405B3BE3862B0 /* libPods.a */; };
+		AE0D7B671C8FC390001E23CC /* JY_HomeViewControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0D7B661C8FC390001E23CC /* JY_HomeViewControllerTableViewController.m */; };
+		AE0D7B6A1C8FC3DB001E23CC /* JY_MessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0D7B691C8FC3DB001E23CC /* JY_MessageTableViewController.m */; };
+		AE0D7B701C8FC4B7001E23CC /* JY_FrendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0D7B6F1C8FC4B7001E23CC /* JY_FrendsTableViewController.m */; };
+		AE0D7B771C8FD39E001E23CC /* JY_OtherTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0D7B751C8FD39E001E23CC /* JY_OtherTableViewController.m */; };
+		AE0D7B7A1C8FD61B001E23CC /* JY_AddDeviceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0D7B791C8FD61B001E23CC /* JY_AddDeviceButton.m */; };
+		AE0D7B7D1C900B11001E23CC /* JY_DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0D7B7C1C900B11001E23CC /* JY_DetailsViewController.m */; };
+		AE0FD8721C8E7A3800DCBDCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0FD8711C8E7A3800DCBDCE /* main.m */; };
+		AE0FD8751C8E7A3800DCBDCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0FD8741C8E7A3800DCBDCE /* AppDelegate.m */; };
+		AE0FD8781C8E7A3800DCBDCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0FD8771C8E7A3800DCBDCE /* ViewController.m */; };
+		AE0FD87B1C8E7A3800DCBDCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0FD8791C8E7A3800DCBDCE /* Main.storyboard */; };
+		AE0FD87D1C8E7A3800DCBDCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0FD87C1C8E7A3800DCBDCE /* Assets.xcassets */; };
+		AE0FD8801C8E7A3800DCBDCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0FD87E1C8E7A3800DCBDCE /* LaunchScreen.storyboard */; };
+		AE0FD88B1C8E7A3900DCBDCE /* JY_CustomTabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0FD88A1C8E7A3900DCBDCE /* JY_CustomTabTests.m */; };
+		AE0FD8961C8E7A3900DCBDCE /* JY_CustomTabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0FD8951C8E7A3900DCBDCE /* JY_CustomTabUITests.m */; };
+		AE0FD8C01C8EB13400DCBDCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0FD8BF1C8EB13400DCBDCE /* Images.xcassets */; };
+		AE0FD8C31C8EB3BE00DCBDCE /* JY_TabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0FD8C21C8EB3BE00DCBDCE /* JY_TabBarControllerConfig.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE0FD8871C8E7A3900DCBDCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE0FD8651C8E7A3800DCBDCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE0FD86C1C8E7A3800DCBDCE;
+			remoteInfo = JY_CustomTab;
+		};
+		AE0FD8921C8E7A3900DCBDCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE0FD8651C8E7A3800DCBDCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE0FD86C1C8E7A3800DCBDCE;
+			remoteInfo = JY_CustomTab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3932EED5B010ECC14F7AD50 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AE0D7B651C8FC390001E23CC /* JY_HomeViewControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JY_HomeViewControllerTableViewController.h; sourceTree = "<group>"; };
+		AE0D7B661C8FC390001E23CC /* JY_HomeViewControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JY_HomeViewControllerTableViewController.m; sourceTree = "<group>"; };
+		AE0D7B681C8FC3DB001E23CC /* JY_MessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JY_MessageTableViewController.h; sourceTree = "<group>"; };
+		AE0D7B691C8FC3DB001E23CC /* JY_MessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JY_MessageTableViewController.m; sourceTree = "<group>"; };
+		AE0D7B6E1C8FC4B7001E23CC /* JY_FrendsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JY_FrendsTableViewController.h; sourceTree = "<group>"; };
+		AE0D7B6F1C8FC4B7001E23CC /* JY_FrendsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JY_FrendsTableViewController.m; sourceTree = "<group>"; };
+		AE0D7B741C8FD39E001E23CC /* JY_OtherTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JY_OtherTableViewController.h; sourceTree = "<group>"; };
+		AE0D7B751C8FD39E001E23CC /* JY_OtherTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JY_OtherTableViewController.m; sourceTree = "<group>"; };
+		AE0D7B781C8FD61B001E23CC /* JY_AddDeviceButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JY_AddDeviceButton.h; sourceTree = "<group>"; };
+		AE0D7B791C8FD61B001E23CC /* JY_AddDeviceButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JY_AddDeviceButton.m; sourceTree = "<group>"; };
+		AE0D7B7B1C900B11001E23CC /* JY_DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JY_DetailsViewController.h; sourceTree = "<group>"; };
+		AE0D7B7C1C900B11001E23CC /* JY_DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JY_DetailsViewController.m; sourceTree = "<group>"; };
+		AE0FD86D1C8E7A3800DCBDCE /* JY_CustomTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JY_CustomTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0FD8711C8E7A3800DCBDCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE0FD8731C8E7A3800DCBDCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE0FD8741C8E7A3800DCBDCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE0FD8761C8E7A3800DCBDCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE0FD8771C8E7A3800DCBDCE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE0FD87A1C8E7A3800DCBDCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE0FD87C1C8E7A3800DCBDCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE0FD87F1C8E7A3800DCBDCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE0FD8811C8E7A3800DCBDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0FD8861C8E7A3900DCBDCE /* JY_CustomTabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JY_CustomTabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0FD88A1C8E7A3900DCBDCE /* JY_CustomTabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JY_CustomTabTests.m; sourceTree = "<group>"; };
+		AE0FD88C1C8E7A3900DCBDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0FD8911C8E7A3900DCBDCE /* JY_CustomTabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JY_CustomTabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0FD8951C8E7A3900DCBDCE /* JY_CustomTabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JY_CustomTabUITests.m; sourceTree = "<group>"; };
+		AE0FD8971C8E7A3900DCBDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0FD8BF1C8EB13400DCBDCE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE0FD8C11C8EB3BE00DCBDCE /* JY_TabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JY_TabBarControllerConfig.h; sourceTree = "<group>"; };
+		AE0FD8C21C8EB3BE00DCBDCE /* JY_TabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JY_TabBarControllerConfig.m; sourceTree = "<group>"; };
+		CC6E3743416405B3BE3862B0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6A78E87454A882D71D4BBBC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE0FD86A1C8E7A3800DCBDCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD89767BE8506FACF3A958F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0FD8831C8E7A3900DCBDCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0FD88E1C8E7A3900DCBDCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D427E07C1EFFBC6E37EF523 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC6E3743416405B3BE3862B0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE0D7B711C8FD39E001E23CC /* 智能看家 */ = {
+			isa = PBXGroup;
+			children = (
+				AE0D7B741C8FD39E001E23CC /* JY_OtherTableViewController.h */,
+				AE0D7B751C8FD39E001E23CC /* JY_OtherTableViewController.m */,
+			);
+			name = "智能看家";
+			path = Other;
+			sourceTree = "<group>";
+		};
+		AE0FD8641C8E7A3800DCBDCE = {
+			isa = PBXGroup;
+			children = (
+				AE0FD86F1C8E7A3800DCBDCE /* JY_CustomTab */,
+				AE0FD8891C8E7A3900DCBDCE /* JY_CustomTabTests */,
+				AE0FD8941C8E7A3900DCBDCE /* JY_CustomTabUITests */,
+				AE0FD86E1C8E7A3800DCBDCE /* Products */,
+				C0BBE7B5B5763ED6202C477B /* Pods */,
+				3D427E07C1EFFBC6E37EF523 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE0FD86E1C8E7A3800DCBDCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE0FD86D1C8E7A3800DCBDCE /* JY_CustomTab.app */,
+				AE0FD8861C8E7A3900DCBDCE /* JY_CustomTabTests.xctest */,
+				AE0FD8911C8E7A3900DCBDCE /* JY_CustomTabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE0FD86F1C8E7A3800DCBDCE /* JY_CustomTab */ = {
+			isa = PBXGroup;
+			children = (
+				AE0D7B711C8FD39E001E23CC /* 智能看家 */,
+				AE0FD8A71C8EACEA00DCBDCE /* 我的设备 */,
+				AE0FD8AA1C8EACEA00DCBDCE /* 添加 */,
+				AE0FD8AE1C8EACEA00DCBDCE /* 时光相册 */,
+				AE0FD8B41C8EACEA00DCBDCE /* 好友分享 */,
+				AE0FD8A31C8EAC6F00DCBDCE /* Tab */,
+				AE0FD8731C8E7A3800DCBDCE /* AppDelegate.h */,
+				AE0FD8741C8E7A3800DCBDCE /* AppDelegate.m */,
+				AE0FD8761C8E7A3800DCBDCE /* ViewController.h */,
+				AE0FD8771C8E7A3800DCBDCE /* ViewController.m */,
+				AE0FD8791C8E7A3800DCBDCE /* Main.storyboard */,
+				AE0FD87C1C8E7A3800DCBDCE /* Assets.xcassets */,
+				AE0FD87E1C8E7A3800DCBDCE /* LaunchScreen.storyboard */,
+				AE0FD8811C8E7A3800DCBDCE /* Info.plist */,
+				AE0FD8BF1C8EB13400DCBDCE /* Images.xcassets */,
+				AE0FD8701C8E7A3800DCBDCE /* Supporting Files */,
+			);
+			path = JY_CustomTab;
+			sourceTree = "<group>";
+		};
+		AE0FD8701C8E7A3800DCBDCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE0FD8711C8E7A3800DCBDCE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE0FD8891C8E7A3900DCBDCE /* JY_CustomTabTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE0FD88A1C8E7A3900DCBDCE /* JY_CustomTabTests.m */,
+				AE0FD88C1C8E7A3900DCBDCE /* Info.plist */,
+			);
+			path = JY_CustomTabTests;
+			sourceTree = "<group>";
+		};
+		AE0FD8941C8E7A3900DCBDCE /* JY_CustomTabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE0FD8951C8E7A3900DCBDCE /* JY_CustomTabUITests.m */,
+				AE0FD8971C8E7A3900DCBDCE /* Info.plist */,
+			);
+			path = JY_CustomTabUITests;
+			sourceTree = "<group>";
+		};
+		AE0FD8A31C8EAC6F00DCBDCE /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				AE0FD8C11C8EB3BE00DCBDCE /* JY_TabBarControllerConfig.h */,
+				AE0FD8C21C8EB3BE00DCBDCE /* JY_TabBarControllerConfig.m */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		AE0FD8A71C8EACEA00DCBDCE /* 我的设备 */ = {
+			isa = PBXGroup;
+			children = (
+				AE0D7B651C8FC390001E23CC /* JY_HomeViewControllerTableViewController.h */,
+				AE0D7B661C8FC390001E23CC /* JY_HomeViewControllerTableViewController.m */,
+			);
+			name = "我的设备";
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AE0FD8AA1C8EACEA00DCBDCE /* 添加 */ = {
+			isa = PBXGroup;
+			children = (
+				AE0FD8AB1C8EACEA00DCBDCE /* View */,
+			);
+			name = "添加";
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AE0FD8AB1C8EACEA00DCBDCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE0D7B781C8FD61B001E23CC /* JY_AddDeviceButton.h */,
+				AE0D7B791C8FD61B001E23CC /* JY_AddDeviceButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE0FD8AE1C8EACEA00DCBDCE /* 时光相册 */ = {
+			isa = PBXGroup;
+			children = (
+				AE0D7B681C8FC3DB001E23CC /* JY_MessageTableViewController.h */,
+				AE0D7B691C8FC3DB001E23CC /* JY_MessageTableViewController.m */,
+			);
+			name = "时光相册";
+			path = Message;
+			sourceTree = "<group>";
+		};
+		AE0FD8B41C8EACEA00DCBDCE /* 好友分享 */ = {
+			isa = PBXGroup;
+			children = (
+				AE0D7B7B1C900B11001E23CC /* JY_DetailsViewController.h */,
+				AE0D7B7C1C900B11001E23CC /* JY_DetailsViewController.m */,
+				AE0D7B6E1C8FC4B7001E23CC /* JY_FrendsTableViewController.h */,
+				AE0D7B6F1C8FC4B7001E23CC /* JY_FrendsTableViewController.m */,
+			);
+			name = "好友分享";
+			path = SameCity;
+			sourceTree = "<group>";
+		};
+		C0BBE7B5B5763ED6202C477B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3932EED5B010ECC14F7AD50 /* Pods.debug.xcconfig */,
+				E6A78E87454A882D71D4BBBC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE0FD86C1C8E7A3800DCBDCE /* JY_CustomTab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0FD89A1C8E7A3900DCBDCE /* Build configuration list for PBXNativeTarget "JY_CustomTab" */;
+			buildPhases = (
+				B586D31E390C52297DA7C7F6 /* Check Pods Manifest.lock */,
+				AE0FD8691C8E7A3800DCBDCE /* Sources */,
+				AE0FD86A1C8E7A3800DCBDCE /* Frameworks */,
+				AE0FD86B1C8E7A3800DCBDCE /* Resources */,
+				51BAF17EEF0BE3370F68C877 /* Embed Pods Frameworks */,
+				AFD63E2F674C60E968E4DD9F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JY_CustomTab;
+			productName = JY_CustomTab;
+			productReference = AE0FD86D1C8E7A3800DCBDCE /* JY_CustomTab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE0FD8851C8E7A3900DCBDCE /* JY_CustomTabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0FD89D1C8E7A3900DCBDCE /* Build configuration list for PBXNativeTarget "JY_CustomTabTests" */;
+			buildPhases = (
+				AE0FD8821C8E7A3900DCBDCE /* Sources */,
+				AE0FD8831C8E7A3900DCBDCE /* Frameworks */,
+				AE0FD8841C8E7A3900DCBDCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE0FD8881C8E7A3900DCBDCE /* PBXTargetDependency */,
+			);
+			name = JY_CustomTabTests;
+			productName = JY_CustomTabTests;
+			productReference = AE0FD8861C8E7A3900DCBDCE /* JY_CustomTabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE0FD8901C8E7A3900DCBDCE /* JY_CustomTabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0FD8A01C8E7A3900DCBDCE /* Build configuration list for PBXNativeTarget "JY_CustomTabUITests" */;
+			buildPhases = (
+				AE0FD88D1C8E7A3900DCBDCE /* Sources */,
+				AE0FD88E1C8E7A3900DCBDCE /* Frameworks */,
+				AE0FD88F1C8E7A3900DCBDCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE0FD8931C8E7A3900DCBDCE /* PBXTargetDependency */,
+			);
+			name = JY_CustomTabUITests;
+			productName = JY_CustomTabUITests;
+			productReference = AE0FD8911C8E7A3900DCBDCE /* JY_CustomTabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE0FD8651C8E7A3800DCBDCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Netviewtech;
+				TargetAttributes = {
+					AE0FD86C1C8E7A3800DCBDCE = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					AE0FD8851C8E7A3900DCBDCE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = AE0FD86C1C8E7A3800DCBDCE;
+					};
+					AE0FD8901C8E7A3900DCBDCE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = AE0FD86C1C8E7A3800DCBDCE;
+					};
+				};
+			};
+			buildConfigurationList = AE0FD8681C8E7A3800DCBDCE /* Build configuration list for PBXProject "JY_CustomTab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE0FD8641C8E7A3800DCBDCE;
+			productRefGroup = AE0FD86E1C8E7A3800DCBDCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE0FD86C1C8E7A3800DCBDCE /* JY_CustomTab */,
+				AE0FD8851C8E7A3900DCBDCE /* JY_CustomTabTests */,
+				AE0FD8901C8E7A3900DCBDCE /* JY_CustomTabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE0FD86B1C8E7A3800DCBDCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0FD8801C8E7A3800DCBDCE /* LaunchScreen.storyboard in Resources */,
+				AE0FD8C01C8EB13400DCBDCE /* Images.xcassets in Resources */,
+				AE0FD87D1C8E7A3800DCBDCE /* Assets.xcassets in Resources */,
+				AE0FD87B1C8E7A3800DCBDCE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0FD8841C8E7A3900DCBDCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0FD88F1C8E7A3900DCBDCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51BAF17EEF0BE3370F68C877 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFD63E2F674C60E968E4DD9F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B586D31E390C52297DA7C7F6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE0FD8691C8E7A3800DCBDCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0D7B701C8FC4B7001E23CC /* JY_FrendsTableViewController.m in Sources */,
+				AE0FD8C31C8EB3BE00DCBDCE /* JY_TabBarControllerConfig.m in Sources */,
+				AE0FD8781C8E7A3800DCBDCE /* ViewController.m in Sources */,
+				AE0FD8751C8E7A3800DCBDCE /* AppDelegate.m in Sources */,
+				AE0D7B7D1C900B11001E23CC /* JY_DetailsViewController.m in Sources */,
+				AE0FD8721C8E7A3800DCBDCE /* main.m in Sources */,
+				AE0D7B7A1C8FD61B001E23CC /* JY_AddDeviceButton.m in Sources */,
+				AE0D7B6A1C8FC3DB001E23CC /* JY_MessageTableViewController.m in Sources */,
+				AE0D7B671C8FC390001E23CC /* JY_HomeViewControllerTableViewController.m in Sources */,
+				AE0D7B771C8FD39E001E23CC /* JY_OtherTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0FD8821C8E7A3900DCBDCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0FD88B1C8E7A3900DCBDCE /* JY_CustomTabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0FD88D1C8E7A3900DCBDCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0FD8961C8E7A3900DCBDCE /* JY_CustomTabUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE0FD8881C8E7A3900DCBDCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE0FD86C1C8E7A3800DCBDCE /* JY_CustomTab */;
+			targetProxy = AE0FD8871C8E7A3900DCBDCE /* PBXContainerItemProxy */;
+		};
+		AE0FD8931C8E7A3900DCBDCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE0FD86C1C8E7A3800DCBDCE /* JY_CustomTab */;
+			targetProxy = AE0FD8921C8E7A3900DCBDCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE0FD8791C8E7A3800DCBDCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0FD87A1C8E7A3800DCBDCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE0FD87E1C8E7A3800DCBDCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0FD87F1C8E7A3800DCBDCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE0FD8981C8E7A3900DCBDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE0FD8991C8E7A3900DCBDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE0FD89B1C8E7A3900DCBDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3932EED5B010ECC14F7AD50 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = JY_CustomTab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netviewtech.test.JY-CustomTab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE0FD89C1C8E7A3900DCBDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6A78E87454A882D71D4BBBC /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = JY_CustomTab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netviewtech.test.JY-CustomTab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE0FD89E1C8E7A3900DCBDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JY_CustomTabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netviewtech.test.JY-CustomTabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JY_CustomTab.app/JY_CustomTab";
+			};
+			name = Debug;
+		};
+		AE0FD89F1C8E7A3900DCBDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JY_CustomTabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netviewtech.test.JY-CustomTabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JY_CustomTab.app/JY_CustomTab";
+			};
+			name = Release;
+		};
+		AE0FD8A11C8E7A3900DCBDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JY_CustomTabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netviewtech.test.JY-CustomTabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JY_CustomTab;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AE0FD8A21C8E7A3900DCBDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JY_CustomTabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netviewtech.test.JY-CustomTabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JY_CustomTab;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE0FD8681C8E7A3800DCBDCE /* Build configuration list for PBXProject "JY_CustomTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0FD8981C8E7A3900DCBDCE /* Debug */,
+				AE0FD8991C8E7A3900DCBDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0FD89A1C8E7A3900DCBDCE /* Build configuration list for PBXNativeTarget "JY_CustomTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0FD89B1C8E7A3900DCBDCE /* Debug */,
+				AE0FD89C1C8E7A3900DCBDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0FD89D1C8E7A3900DCBDCE /* Build configuration list for PBXNativeTarget "JY_CustomTabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0FD89E1C8E7A3900DCBDCE /* Debug */,
+				AE0FD89F1C8E7A3900DCBDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0FD8A01C8E7A3900DCBDCE /* Build configuration list for PBXNativeTarget "JY_CustomTabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0FD8A11C8E7A3900DCBDCE /* Debug */,
+				AE0FD8A21C8E7A3900DCBDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE0FD8651C8E7A3800DCBDCE /* Project object */;
+}

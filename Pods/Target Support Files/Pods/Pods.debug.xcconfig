@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CYLTabBarController" "${PODS_ROOT}/Headers/Public/NSDate+Helper" "${PODS_ROOT}/Headers/Public/ReactiveCocoa" "${PODS_ROOT}/Headers/Public/UIImage+BlurredFrame" "${PODS_ROOT}/Headers/Public/ios-qr-encoder"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CYLTabBarController" -isystem "${PODS_ROOT}/Headers/Public/NSDate+Helper" -isystem "${PODS_ROOT}/Headers/Public/ReactiveCocoa" -isystem "${PODS_ROOT}/Headers/Public/UIImage+BlurredFrame" -isystem "${PODS_ROOT}/Headers/Public/ios-qr-encoder"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"CYLTabBarController" -l"NSDate+Helper" -l"ReactiveCocoa" -l"UIImage+BlurredFrame" -l"ios-qr-encoder"
+PODS_ROOT = ${SRCROOT}/Pods
