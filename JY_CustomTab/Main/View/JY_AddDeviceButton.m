@@ -9,6 +9,7 @@
 #import "JY_AddDeviceButton.h"
 
 @interface JY_AddDeviceButton ()<UIActionSheetDelegate>
+
 {
     CGFloat _buttonImageHeight;
 }
@@ -63,43 +64,44 @@
 /*
  *
  Create a custom UIButton with title and add it to the center of our tab bar
+ 创建一个标题自定义UIButton和将它添加到我们的标签栏的中心
  *
  */
-+ (instancetype)plusButton {
-    
-    JY_AddDeviceButton *button = [[JY_AddDeviceButton alloc] init];
-    
-    [button setImage:[UIImage imageNamed:@"post_normal"] forState:UIControlStateNormal];
-    [button setTitle:@"添加" forState:UIControlStateNormal];
-    
-    [button setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
-    button.titleLabel.font = [UIFont systemFontOfSize:9.5];
-    [button sizeToFit];
-    
-    [button addTarget:button action:@selector(clickPublish) forControlEvents:UIControlEventTouchUpInside];
-    return button;
-}
+//+ (instancetype)plusButton {
+//    
+//    JY_AddDeviceButton *button = [[JY_AddDeviceButton alloc] init];
+//    
+//    [button setImage:[UIImage imageNamed:@"post_normal"] forState:UIControlStateNormal];
+//    [button setTitle:@"添加" forState:UIControlStateNormal];
+//    
+//    [button setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
+//    button.titleLabel.font = [UIFont systemFontOfSize:9.5];
+//    [button sizeToFit];
+//    
+//    [button addTarget:button action:@selector(clickPublish) forControlEvents:UIControlEventTouchUpInside];
+//    return button;
+//}
 /*
  *
  Create a custom UIButton without title and add it to the center of our tab bar
  *
  */
-//+ (instancetype)plusButton
-//{
-//
-//    UIImage *buttonImage = [UIImage imageNamed:@"hood.png"];
-//    UIImage *highlightImage = [UIImage imageNamed:@"hood-selected.png"];
-//
-//    CYLPlusButtonSubclass* button = [CYLPlusButtonSubclass buttonWithType:UIButtonTypeCustom];
-//
-//    button.autoresizingMask = UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleTopMargin;
-//    button.frame = CGRectMake(0.0, 0.0, buttonImage.size.width, buttonImage.size.height);
-//    [button setBackgroundImage:buttonImage forState:UIControlStateNormal];
-//    [button setBackgroundImage:highlightImage forState:UIControlStateHighlighted];
-//    [button addTarget:button action:@selector(clickPublish) forControlEvents:UIControlEventTouchUpInside];
-//
-//    return button;
-//}
++ (instancetype)plusButton
+{
+
+    UIImage *buttonImage = [UIImage imageNamed:@"hood.png"];
+    UIImage *highlightImage = [UIImage imageNamed:@"hood-selected.png"];
+
+    JY_AddDeviceButton* button = [JY_AddDeviceButton buttonWithType:UIButtonTypeCustom];
+
+    button.autoresizingMask = UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleTopMargin;
+    button.frame = CGRectMake(0.0, 0.0, buttonImage.size.width, buttonImage.size.height);
+    [button setBackgroundImage:buttonImage forState:UIControlStateNormal];
+    [button setBackgroundImage:highlightImage forState:UIControlStateHighlighted];
+    [button addTarget:button action:@selector(clickPublish) forControlEvents:UIControlEventTouchUpInside];
+
+    return button;
+}
 
 #pragma mark -
 #pragma mark - Event Response
@@ -112,7 +114,7 @@
                                                              delegate:nil
                                                     cancelButtonTitle:@"取消"
                                                destructiveButtonTitle:nil
-                                                    otherButtonTitles:@"拍照", @"从相册选取", @"淘宝一键转卖", nil];
+                                                    otherButtonTitles:@"购买", @"添加摄像机", @"添加门铃", nil];
     [actionSheet showInView:viewController.view];
 }
 

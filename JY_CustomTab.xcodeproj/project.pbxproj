@@ -14,6 +14,9 @@
 		AE0D7B771C8FD39E001E23CC /* JY_OtherTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0D7B751C8FD39E001E23CC /* JY_OtherTableViewController.m */; };
 		AE0D7B7A1C8FD61B001E23CC /* JY_AddDeviceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0D7B791C8FD61B001E23CC /* JY_AddDeviceButton.m */; };
 		AE0D7B7D1C900B11001E23CC /* JY_DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0D7B7C1C900B11001E23CC /* JY_DetailsViewController.m */; };
+		AE0E99011C9BAF9F00DCA9C9 /* JY_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0E99001C9BAF9F00DCA9C9 /* JY_TableViewCell.m */; };
+		AE0E99041C9BB7A300DCA9C9 /* JY_TableViewRowAction.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0E99031C9BB7A300DCA9C9 /* JY_TableViewRowAction.m */; };
+		AE0E99071C9BB95900DCA9C9 /* JY_RowActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0E99061C9BB95900DCA9C9 /* JY_RowActionButton.m */; };
 		AE0FD8721C8E7A3800DCBDCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0FD8711C8E7A3800DCBDCE /* main.m */; };
 		AE0FD8751C8E7A3800DCBDCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0FD8741C8E7A3800DCBDCE /* AppDelegate.m */; };
 		AE0FD8781C8E7A3800DCBDCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0FD8771C8E7A3800DCBDCE /* ViewController.m */; };
@@ -57,6 +60,13 @@
 		AE0D7B791C8FD61B001E23CC /* JY_AddDeviceButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JY_AddDeviceButton.m; sourceTree = "<group>"; };
 		AE0D7B7B1C900B11001E23CC /* JY_DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JY_DetailsViewController.h; sourceTree = "<group>"; };
 		AE0D7B7C1C900B11001E23CC /* JY_DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JY_DetailsViewController.m; sourceTree = "<group>"; };
+		AE0E98FF1C9BAF9F00DCA9C9 /* JY_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JY_TableViewCell.h; sourceTree = "<group>"; };
+		AE0E99001C9BAF9F00DCA9C9 /* JY_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JY_TableViewCell.m; sourceTree = "<group>"; };
+		AE0E99021C9BB7A300DCA9C9 /* JY_TableViewRowAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JY_TableViewRowAction.h; sourceTree = "<group>"; };
+		AE0E99031C9BB7A300DCA9C9 /* JY_TableViewRowAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JY_TableViewRowAction.m; sourceTree = "<group>"; };
+		AE0E99051C9BB95900DCA9C9 /* JY_RowActionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JY_RowActionButton.h; sourceTree = "<group>"; };
+		AE0E99061C9BB95900DCA9C9 /* JY_RowActionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JY_RowActionButton.m; sourceTree = "<group>"; };
+		AE0E99081C9BDAE600DCA9C9 /* JY_TableViewRowActionInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JY_TableViewRowActionInternal.h; sourceTree = "<group>"; };
 		AE0FD86D1C8E7A3800DCBDCE /* JY_CustomTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JY_CustomTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0FD8711C8E7A3800DCBDCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE0FD8731C8E7A3800DCBDCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -124,6 +134,20 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		AE0E98FE1C9BADC700DCA9C9 /* MutableEditAction */ = {
+			isa = PBXGroup;
+			children = (
+				AE0E98FF1C9BAF9F00DCA9C9 /* JY_TableViewCell.h */,
+				AE0E99001C9BAF9F00DCA9C9 /* JY_TableViewCell.m */,
+				AE0E99021C9BB7A300DCA9C9 /* JY_TableViewRowAction.h */,
+				AE0E99031C9BB7A300DCA9C9 /* JY_TableViewRowAction.m */,
+				AE0E99081C9BDAE600DCA9C9 /* JY_TableViewRowActionInternal.h */,
+				AE0E99051C9BB95900DCA9C9 /* JY_RowActionButton.h */,
+				AE0E99061C9BB95900DCA9C9 /* JY_RowActionButton.m */,
+			);
+			path = MutableEditAction;
+			sourceTree = "<group>";
+		};
 		AE0FD8641C8E7A3800DCBDCE = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +173,7 @@
 		AE0FD86F1C8E7A3800DCBDCE /* JY_CustomTab */ = {
 			isa = PBXGroup;
 			children = (
+				AE0E98FE1C9BADC700DCA9C9 /* MutableEditAction */,
 				AE0D7B711C8FD39E001E23CC /* 智能看家 */,
 				AE0FD8A71C8EACEA00DCBDCE /* 我的设备 */,
 				AE0FD8AA1C8EACEA00DCBDCE /* 添加 */,
@@ -333,6 +358,7 @@
 				TargetAttributes = {
 					AE0FD86C1C8E7A3800DCBDCE = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3289LJZJZY;
 					};
 					AE0FD8851C8E7A3900DCBDCE = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -447,14 +473,17 @@
 			files = (
 				AE0D7B701C8FC4B7001E23CC /* JY_FrendsTableViewController.m in Sources */,
 				AE0FD8C31C8EB3BE00DCBDCE /* JY_TabBarControllerConfig.m in Sources */,
+				AE0E99011C9BAF9F00DCA9C9 /* JY_TableViewCell.m in Sources */,
 				AE0FD8781C8E7A3800DCBDCE /* ViewController.m in Sources */,
 				AE0FD8751C8E7A3800DCBDCE /* AppDelegate.m in Sources */,
 				AE0D7B7D1C900B11001E23CC /* JY_DetailsViewController.m in Sources */,
 				AE0FD8721C8E7A3800DCBDCE /* main.m in Sources */,
 				AE0D7B7A1C8FD61B001E23CC /* JY_AddDeviceButton.m in Sources */,
 				AE0D7B6A1C8FC3DB001E23CC /* JY_MessageTableViewController.m in Sources */,
+				AE0E99041C9BB7A300DCA9C9 /* JY_TableViewRowAction.m in Sources */,
 				AE0D7B671C8FC390001E23CC /* JY_HomeViewControllerTableViewController.m in Sources */,
 				AE0D7B771C8FD39E001E23CC /* JY_OtherTableViewController.m in Sources */,
+				AE0E99071C9BB95900DCA9C9 /* JY_RowActionButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,10 +626,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JY_CustomTab/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.netviewtech.test.JY-CustomTab";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netviewtech.testoop.JY-CustomTab";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -611,10 +641,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JY_CustomTab/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.netviewtech.test.JY-CustomTab";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netviewtech.testoop.JY-CustomTab";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
